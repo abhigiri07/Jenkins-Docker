@@ -1,0 +1,7 @@
+services:
+  phpapp:
+    image: abhigiri07/jenkinsdocker:latest
+    container_name: phpapp
+    restart: always
+    ports:
+      - "80:80"
