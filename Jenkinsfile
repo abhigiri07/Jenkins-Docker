@@ -5,7 +5,7 @@ pipeline {
         DOCKERHUB = "abhigiri07"      // your Docker Hub username
         IMAGE = "jenkinsdocker"        // your Docker Hub repository name
         EC2_USER = "ubuntu"           
-        EC2_HOST = "52.201.238.55"     
+        EC2_HOST = "54.90.255.191"     
     }
 
     triggers {
